@@ -38,6 +38,8 @@ Vue.use(Element, {
   i18n: (key, value) => i18n.t(key, value)
 })
 
+window.i18n = i18n
+
 // register global utility filters
 Object.keys(filters).forEach(key => {
   Vue.filter(key, filters[key])

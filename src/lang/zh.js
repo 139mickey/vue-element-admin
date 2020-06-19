@@ -4,8 +4,8 @@ export default {
     documentation: '文档',
     guide: '引导页',
     permission: '权限测试页',
-    rolePermission: '角色权限',
     pagePermission: '页面权限',
+    rolePermission: '角色权限',
     directivePermission: '指令权限',
     icons: '图标',
     components: '组件',
@@ -95,10 +95,7 @@ export default {
     confirm: '确定',
     cancel: '取消'
   },
-  guide: {
-    description: '引导页对于一些第一次进入项目的人很有用，你可以简单介绍下项目的功能。本 Demo 是基于',
-    button: '打开引导'
-  },
+  // src/components
   components: {
     documentation: '文档',
     tinymceTips: '富文本是管理后台一个核心的功能，但同时又是一个有很多坑的地方。在选择富文本的过程中我也走了不少的弯路，市面上常见的富文本都基本用过了，最终权衡了一下选择了Tinymce。更详细的富文本比较和介绍见',
@@ -107,6 +104,12 @@ export default {
     backToTopTips1: '页面滚动到指定位置会在右下角出现返回顶部按钮',
     backToTopTips2: '可自定义按钮的样式、show/hide、出现的高度、返回的位置 如需文字提示，可在外部使用Element的el-tooltip元素',
     imageUploadTips: '由于我在使用时它只有vue@1版本，而且和mockjs不兼容，所以自己改造了一下，如果大家要使用的话，优先还是使用官方版本。'
+  },
+  langSelect: {
+    languageSwitchSuccess: '语言切换完成！',
+  },
+  headerSearch: {
+    Search: '搜索'
   },
   table: {
     dynamicTips1: '固定表头, 按照表头顺序排序',
@@ -171,5 +174,39 @@ export default {
     tagsView: '开启 Tags-View',
     fixedHeader: '固定 Header',
     sidebarLogo: '侧边栏 Logo'
-  }
+  },
+  views: {
+    guide: {
+      description: '引导页对于一些第一次进入项目的人很有用，你可以简单介绍下项目的功能。本 Demo 是基于',
+      button: '打开引导',
+      hamburgerContainer: {
+        title: '侧边栏按钮',
+        description: '打开和关闭边栏',
+      },
+      breadcrumbContainer: {
+        title: '面包屑',
+        description: '指示当前页位置',
+      },
+      headerSearch: {
+        title: '页面查找',
+        description: '页面搜索，快速导航',
+
+      },
+      fullScreen: {
+        title: '全屏',
+        description: '将页面设置为全屏',
+
+      },
+      sizeSelect: {
+        title: '尺寸切换',
+        description: '切换系统布局大小',
+      },
+      tagsViewContainer: {
+        title: '标记视图',
+        description: '您访问的页面的历史记录',
+      }
+    }
+  },
+
+
 }

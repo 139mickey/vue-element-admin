@@ -171,5 +171,8 @@ export default {
     tagsView: 'Tags-View 開く',
     fixedHeader: 'Fixed Header',
     sidebarLogo: 'Sidebar Logo'
+  },
+  language: {
+    switchSuccess: '言語切り替え成功！',
   }
 }

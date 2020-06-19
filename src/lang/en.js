@@ -95,10 +95,7 @@ export default {
     confirm: 'Confirm',
     cancel: 'Cancel'
   },
-  guide: {
-    description: 'The guide page is useful for some people who entered the project for the first time. You can briefly introduce the features of the project. Demo is based on ',
-    button: 'Show Guide'
-  },
+  // src/components
   components: {
     documentation: 'Documentation',
     tinymceTips: 'Rich text is a core feature of the management backend, but at the same time it is a place with lots of pits. In the process of selecting rich texts, I also took a lot of detours. The common rich texts on the market have been basically used, and I finally chose Tinymce. See the more detailed rich text comparison and introduction.',
@@ -107,6 +104,12 @@ export default {
     backToTopTips1: 'When the page is scrolled to the specified position, the Back to Top button appears in the lower right corner',
     backToTopTips2: 'You can customize the style of the button, show / hide, height of appearance, height of the return. If you need a text prompt, you can use element-ui el-tooltip elements externally',
     imageUploadTips: 'Since I was using only the vue@1 version, and it is not compatible with mockjs at the moment, I modified it myself, and if you are going to use it, it is better to use official version.'
+  },
+  langSelect: {
+    languageSwitchSuccess: 'Language switch complete!',
+  },
+  headerSearch: {
+    Search: 'Search'
   },
   table: {
     dynamicTips1: 'Fixed header, sorted by header order',
@@ -171,5 +174,39 @@ export default {
     tagsView: 'Open Tags-View',
     fixedHeader: 'Fixed Header',
     sidebarLogo: 'Sidebar Logo'
-  }
+  },
+  views: {
+    guide: {
+      description: 'The guide page is useful for some people who entered the project for the first time. You can briefly introduce the features of the project. Demo is based on ',
+      button: 'Show Guide',
+      hamburgerContainer: {
+        title: 'Hamburger',
+        description: 'Open && Close sidebar',
+      },
+      breadcrumbContainer: {
+        title: 'Breadcrumb',
+        description: 'Indicate the current page location',
+      },
+      headerSearch: {
+        title: 'Page Search',
+        description: 'Page search, quick navigation',
+
+      },
+      fullScreen: {
+        title: 'fullScreen',
+        description: 'Set the page into fullScreen',
+
+      },
+      sizeSelect: {
+        title: 'Switch Size',
+        description: 'Switch the system size',
+      },
+      tagsViewContainer: {
+        title: 'Tags view',
+        description: 'The history of the page you visited',
+      }
+    }
+  },
+
+
 }
