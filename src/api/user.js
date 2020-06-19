@@ -12,7 +12,7 @@ export function getInfo(token) {
   return request({
     url: 'v1/user/info', // '/vue-element-admin/user/info',
     method: 'get',
-    params: {token}
+    // params: {token}
   })
 }
 
